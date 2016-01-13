@@ -1,0 +1,37 @@
+{
+  "name": "kdbxweb",
+  "description": "Kdbx KeePass database reader for web",
+  "version": "0.3.3",
+  "authors": [
+    "Antelle <dmitryvit@gmail.com>"
+  ],
+  "main": "dist/kdbxweb.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "kdbx",
+    "keepass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "resources",
+    ".idea",
+    "build"
+  ],
+  "homepage": "https://github.com/antelle/kdbxweb",
+  "_release": "0.3.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.3",
+    "commit": "9ac358d26e6d396d2a0f1403b74b91219f8819c8"
+  },
+  "_source": "git://github.com/antelle/kdbxweb.git",
+  "_target": "~0.3.2",
+  "_originalSource": "kdbxweb"
+}

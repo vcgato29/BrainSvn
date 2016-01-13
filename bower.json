@@ -1,0 +1,36 @@
+{
+  "name": "keeweb",
+  "version": "0.0.1",
+  "authors": [
+    "Antelle <dmitryvit@gmail.com>"
+  ],
+  "description": "KeePass web app",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "keepass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/antelle/keeweb",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "baron": "~1.0.1",
+    "font-awesome": "~4.4.0",
+    "install": "~1.0.4",
+    "kdbxweb": "~0.3.2",
+    "normalize.css": "~3.0.3",
+    "zepto": "~1.1.6",
+    "FileSaver.js": "eligrey/FileSaver.js",
+    "bootstrap": "~3.3.6"
+  }
+}

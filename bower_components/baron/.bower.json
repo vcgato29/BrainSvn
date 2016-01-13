@@ -1,0 +1,33 @@
+{
+  "name": "baron",
+  "main": "baron.js",
+  "version": "1.0.3",
+  "homepage": "https://github.com/Diokuz/baron",
+  "authors": [
+    "Kuznetsov Dmitriy <diokuz@gmail.com>"
+  ],
+  "description": "Crossbrowser scrollbar customization with native scroll mechanic",
+  "keywords": [
+    "Scrollbar",
+    "scroll",
+    "customization",
+    "crossbrowser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.3",
+    "commit": "35862a0f2b15ab142788b52bd6f13327578c29c2"
+  },
+  "_source": "git://github.com/Diokuz/baron.git",
+  "_target": "~1.0.1",
+  "_originalSource": "baron"
+}
