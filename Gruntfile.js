@@ -30,7 +30,8 @@ module.exports = function (grunt) {
             }
             var value = fontFamily.value.replace(/["']/g, '');
             var fontFiles = {
-                FontAwesome: 'fontawesome-webfont.woff'
+                FontAwesome: 'fontawesome-webfont.woff',
+                'Glyphicons Halflings': 'glyphicons-halflings-regular.woff'
             };
             var fontFile = fontFiles[value];
             if (!fontFile) {
@@ -67,6 +68,11 @@ module.exports = function (grunt) {
             'desktop_tmp': ['tmp/desktop']
         },
         copy: {
+            css: {
+                src: 'app/styles/director.css',
+                dest: 'tmp/css/director.css',
+                nonull: true
+            },
             html: {
                 src: 'app/index.html',
                 dest: 'tmp/index.html',
@@ -78,7 +84,7 @@ module.exports = function (grunt) {
                 nonull: true
             },
             fonts: {
-                src: 'bower_components/font-awesome/fonts/fontawesome-webfont.*',
+                src: ['bower_components/font-awesome/fonts/fontawesome-webfont.*', 'bower_components/bootstrap/fonts/**.*'],
                 dest: 'tmp/fonts/',
                 nonull: true,
                 expand: true,
@@ -393,7 +399,7 @@ module.exports = function (grunt) {
         'htmlmin',
         'string-replace:manifest_html',
         'string-replace:manifest',
-        'shell:electron',
+        //'shell:electron',
         'watch'
     ]);
 
